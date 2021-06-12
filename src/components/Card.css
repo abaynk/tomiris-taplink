@@ -1,0 +1,36 @@
+.Card {
+  background-color: #8eac60;
+  width: 90vw;
+  margin: auto;
+  min-height: 50px;
+  height: fit-content;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px 0;
+  color: #fff;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+h3,
+p {
+  margin: 0;
+}
+h3 {
+  font-size: 18px;
+}
+p {
+  font-size: 14px;
+}
+.extra {
+  text-align: left;
+  width: 80vw;
+  margin: 10px auto;
+  font-size: 14px;
+  font-weight: 300;
+}
+.Card > a {
+  text-decoration: none !important;
+}

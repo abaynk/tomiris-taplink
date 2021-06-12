@@ -1,0 +1,18 @@
+.buttonTele,
+.buttonGmail {
+  width: 40vw;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  background-color: #0088cc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+}
+.buttonTele {
+  background-color: #0088cc;
+}
+.buttonGmail {
+  background-color: #bb001b;
+}
