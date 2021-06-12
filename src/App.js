@@ -54,11 +54,15 @@ export default function App() {
       Живу в Вене и буду рада помочь в поступлении, адаптации и поиска жилья. Для подробной информации скачивай PDF файл."
         document={pdf}
       />
+      <a href="mailto:suzhanova.tomiris@gmail.com">
+        <button className="colab">Сотрудничество</button>
+      </a>
       <Card
         heading="Youtube"
         subheading="Cнимаю видео о жизни и учебе в Вене, своих путешествиях и моде. Присоединяйся!"
         link="https://youtube.com/c/TomirisSuzhanova"
       />
+
       <div className="arrow">
         <span>
           <img src={arrow} alt="v" width="10" />

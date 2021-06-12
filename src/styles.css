@@ -67,3 +67,17 @@ a {
   z-index: -1;
   opacity: 0.3;
 }
+.colab {
+  background-color: #8eac60;
+  width: 90vw;
+  margin: auto;
+  min-height: 50px;
+  border: none;
+  border-radius: 15px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  -webkit-tap-highlight-color: transparent;
+  margin-bottom: 12px;
+}
